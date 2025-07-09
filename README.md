@@ -1,7 +1,8 @@
 <div align="center">
 
 # 🧘‍♀️ YogaLife - Digital Wellness Ecosystem
-### *Comprehensive Wellness Platform*
+
+### _Comprehensive Wellness Platform_
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=600&lines=Digital+Wellness+Platform;Real-time+Streaming;Instructor+%26+Student+Connect;Analytics+Dashboard" alt="Typing SVG" />
 
@@ -151,11 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or feedback, feel free to reach out:
 
--   **GitHub**: [@Pawandasila](https://github.com/Pawandasila)
--   **Live Demo**: [YogaLife Live](https://yoga-frontend-wheat.vercel.app/)
+- **GitHub**: [@Pawandasila](https://github.com/Pawandasila)
+- **Live Demo**: [YogaLife Live](https://yoga-frontend-wheat.vercel.app/)
 
 ---
-
-<div align="center">
-Built with ❤️ by Pawan Dasila for the developer community.
-</div>

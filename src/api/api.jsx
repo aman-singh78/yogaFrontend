@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://yoga-backend-hy1v.vercel.app/api";
+const BASE_URL = "http://localhost:4000/api";
 
 export const SignUpUser = async (userData) => {
   try {
@@ -26,11 +26,15 @@ export const LoginUser = async (userData) => {
   }
 };
 
-export const UpdateUser = async (id , userData) => {
+export const UpdateUser = async (id, userData) => {
   try {
-    const response = await axios.put(`${BASE_URL}/user/update/${id}`, userData, {
-      withCredentials: true,
-    });
+    const response = await axios.put(
+      `${BASE_URL}/user/update/${id}`,
+      userData,
+      {
+        withCredentials: true,
+      }
+    );
     return response.data;
   } catch (error) {
     // throw error.response ? error.response.data : new Error("Network Error");
@@ -38,11 +42,15 @@ export const UpdateUser = async (id , userData) => {
   }
 };
 
-export const ChangePassword = async ( passwordData) => {
+export const ChangePassword = async (passwordData) => {
   try {
-    const response = await axios.post(`${BASE_URL}/user/change-password`, passwordData, {
-      withCredentials: true,
-    });
+    const response = await axios.post(
+      `${BASE_URL}/user/change-password`,
+      passwordData,
+      {
+        withCredentials: true,
+      }
+    );
     return response.data;
   } catch (error) {
     // throw error.response ? error.response.data : new Error("Network Error");
@@ -93,8 +101,7 @@ export const dailyAchievment = async (userId) => {
   try {
     const response = await axios.post(
       `${BASE_URL}/daily-achievement/`,
-      {userId}
-      ,
+      { userId },
       {
         withCredentials: true,
       }
@@ -153,11 +160,9 @@ export const VerifyPayment = async (paymentData) => {
 export const markAttendance = async (data) => {
   try {
     console.log("Sending attendance mark:", data);
-    const response = await axios.post(
-      `${BASE_URL}/attendance/mark`,
-      data,
-      { withCredentials: true }
-    );
+    const response = await axios.post(`${BASE_URL}/attendance/mark`, data, {
+      withCredentials: true,
+    });
 
     return response.data;
   } catch (error) {
@@ -221,11 +226,11 @@ export const getPlans = async () => {
 export const sendForm = async (data) => {
   try {
     const response = await axios.post(`${BASE_URL}/contact/send`, data, {
-      withCredentials : true
+      withCredentials: true,
     });
     return response.data;
   } catch (error) {
     // throw error.response ? error.response.data : new Error("Network Error");
     console.log("Request Failed");
   }
-} 
+};
