@@ -25,12 +25,7 @@
 
 <br>
 
-<div align="center">
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀_Live_Demo-View_Now-22C55E?style=for-the-badge&logo=vercel&logoColor=white)](https://yoga-frontend-wheat.vercel.app/)
-[![💻 GitHub](https://img.shields.io/badge/💻_GitHub-View_Code-0ea5e9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pawandasila/yoga-frontend)
-
-</div>
 
 </div>
 
@@ -76,9 +71,6 @@ Key aspects include a robust HD video streaming infrastructure, an administrativ
 
 ---
 
-## 🎬 Demo
-
-Experience the live demo here: [https://yoga-frontend-wheat.vercel.app/](https://yoga-frontend-wheat.vercel.app/)
 
 ---
 
